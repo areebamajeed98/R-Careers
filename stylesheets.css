@@ -1,0 +1,255 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+.logo
+{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	
+	
+}
+.logo img
+{
+	width: 10%;
+	border: 3px solid white;
+	border-radius: 50%;
+		
+}
+.navbar
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:sticky;
+	top:0;
+	cursor:pointer
+}
+.nav-list{
+	width: 50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+			
+}
+.nav-list li
+{
+	padding: 26px 30px;
+	list-style:none;
+
+		
+	
+}
+.nav-list li a{
+	list-style:none;
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.nav-list li a:hover{
+	color: grey;
+	
+}
+.navbar right-nav{
+	
+	width:50%;
+	text-align:right;
+	padding:0 23px;
+	
+}
+#search
+{ padding: 5px;
+font-size: 17px;
+border: 2px solid grey;
+border-radius:9px;
+}
+
+.background
+{
+	background:rgba(0,0,0,0.7)url("career1.jpg");
+	background-size: cover;
+	background-blend-mode: darken;
+	color:white;
+}
+.box-main
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	max-width:50%;
+	margin:auto;
+	height: 80%;
+}
+.first-section
+{
+	height:100vh ;
+}
+.first-side
+{
+	width:75%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+
+}
+.second-side
+{
+	width: 20%;
+
+
+}
+.second-side img{
+	width:100%;
+	height: 200px;
+	border: 3px solid white;
+	border-radius: 60%;
+	display:block;
+	margin:auto;
+
+	
+}
+.big-text
+{
+	font-size: 38px;
+
+}
+.text-small
+{
+	font-size: 16px;
+
+}
+.btn
+{
+	padding: 8px 20px;
+	margin:7px 3px;
+	border: 2px solid white;
+	border-radius: 8px;
+	font-size: 16px;
+	color:white;
+	cursor: pointer;
+	background:none;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.btn-dark
+{
+	
+	color:black;
+	border:2px solid grey;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	width:100px;
+	height: 35px;
+}
+.btn-sm
+{
+	padding: 6px 10px;
+	vertical-align: middle;
+}
+.section{
+	height:400px;
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 80%;
+	margin:auto;
+	font-family: 'Ubuntu', sans-serif;
+	
+
+}
+.sectiontag
+{
+	padding:16px 0;
+}
+.paras
+{
+	padding: 0 67px;
+	
+}
+.section-left
+{
+	
+	flex-direction: row-reverse;	
+}
+.sectionSubtag
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img
+{
+	width:250px;
+	border:2px solid black;
+	border-radius: 22px;
+	margin-top:16px;
+}
+.contactus
+{
+	background-color:gainsboro;
+	height:600px;
+	justify-content: center;
+	align-items: center;
+	
+}
+.text-center
+{
+	text-align: center;
+	padding:30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:35px;
+}
+.text-footer
+{
+	text-align: center;
+	justify-content: center;
+	padding:30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display:flex;
+	
+}
+.form
+{
+	max-width:500px;
+	margin:15px auto;
+	align-items:center;
+	justify-content: center;
+}
+.form-input
+{
+	width:100%;
+	font-size:19px;
+	border: 2px solid gray;
+	border-radius:6px;
+	margin:14px 0;
+	padding-top:15px;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 5px 13px;
+}
+
+@media only screen and(max-width : 1140px)
+{
+	.nav-list{
+		flex-direction: column;
+	}
+	.navbar
+	{
+		flex-direction: column;
+	}
+	.right-nav
+	{
+		text-align: center;
+	}
+	#search
+	{
+		width:100%;
+	}
+}
